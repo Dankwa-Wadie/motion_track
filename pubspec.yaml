@@ -1,0 +1,42 @@
+name: motion_detector_app
+description: UI for phone movement detection using sensors.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.0
+  sensors_plus: ^5.0.0
+  cupertino_icons: ^1.0.6
+  flutter_launcher_icons: "^0.13.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.7
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/logo.png
+
+flutter_launcher_icons:
+  # This section tells the tool where to find your single high-resolution image file.
+  image_path: "lib/assets/logo.png"
+
+  # --- Android Configuration ---
+  android: true # Set to true to generate icons for Android
+  # If you want a specific icon name (optional):
+  # android_generate_icons: true
+  # android_main_icon_name: "ic_launcher_custom"
+
+  # --- iOS Configuration ---
+  ios: true # Set to true to generate icons for iOS
+  # If you want a specific icon name (optional):
+  # ios_app_icon_name: "AppIcon-Custom"
+
