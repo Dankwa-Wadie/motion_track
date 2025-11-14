@@ -1,6 +1,6 @@
 # MotionTracker
 
-A new Flutter project.
+Flutter project that uses trained edge impulse model to determine 3 motions of a device (up-down motion, circular motion, idleness)
 
 ## Getting Started
 
